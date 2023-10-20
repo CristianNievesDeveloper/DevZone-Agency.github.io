@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevZone | Desarrollo Web Profesional</title>
+    <meta name="description" content="Expertos en Desarrollo Web | Maquetación Web | Posicionamiento SEO">
+    <link rel="icon" href="img/logo-g.ico">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="page">
+      <!-- header section starts -->
+    <header class="header" data-name="header">
+        <a href="#home" class="logo">
+            <img class="logo-1" src="./img/icon fondo negro.png" style="border-radius: 50%;" alt="" loading="lazy">
+        </a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div  class="line"></div>
+            <div  class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="#home" > inicio</a>
+                </li>
+                <li>
+                    <a href="#about">nosotros</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#contacto">contacto</a>
+                </li>
+                <li>
+                    <a href="cotizar.html">cotizar</a>
+                </li>
+            </ul>
+        </nav>        
+    </header>
+    <!-- header section ends -->  
+<main>
+    <section class="home" id="home">
+        <div class="titulo">
+            <h2>DevZone</h2>
+            <p>Web Developers</p> <br>
+            <p class="lema">Somos expertos en impulsar la transformación digital mediante plataformas web innovadoras que fusionan imaginación y tecnología.</p>
+           <a href="cotizar.html"> <input type="button" value="consigue tu cotización" class="btn"></a>
+        </div>
+        <div class="icono">
+            <img src="img/Programming-amico.png" alt="">
+        </div>
+    </section>
+
+     <!-- home section ends -->  
+     <!-- section abouttttttt starts -->
+     <section class="about hidden mob" id="about">
+        <div class="row">
+            <div class="content">
+                <h3>Descubre más sobre DevZone</h3>
+               <p>En DevZone, nuestro equipo de profesionales apasionados por la tecnología trabaja incansablemente para transformar tus ideas en realidad digital. Desde el diseño hasta la implementación, nos dedicamos a crear sitios web modernos y atractivos que se adapten a las necesidades únicas de tu empresa</p>
+                <p> Estamos emocionados de trabajar contigo y ser parte del éxito de tu negocio en línea. Permítenos llevar tu presencia en la web al siguiente nivel y ayudarte a destacar en un mercado cada vez más competitivo.</p>
+            </div>
+            <img src="img/about.png" alt="" loading="lazy">
+        </div>
+    </section>
+    <!-- proyectos-------------------------------- -->
+    <section class="portfolio hidden mob" id="portfolio">
+        <div class="heading-por">
+          <h3>Proyectos</h3>
+        </div>
+    
+     <div class="container-pages hidden mob">
+
+           <div class="proyectos">
+                <img src="img/proy1.jpg " alt="" loading="lazy">
+                <a class="btn-1" href="https://devzone990.github.io/" > ver sitio Web</a>
+           </div>
+           <div class="proyectos">
+                 <img src="img/proy2.jpg" alt="" loading="lazy">
+                 <a class="btn-1" href=" https://devzone990.github.io/CAFETERIA2/" > ver sitio Web</a>
+           </div>
+           <div class="proyectos">
+                 <img src="img/proy3.jpg " alt="" loading="lazy">
+                 <a class="btn-1" href="https://devzone990.github.io/CafeteriaProDZ2/" > ver sitio Web</a>
+           </div>
+           <div class="proyectos">
+                  <img src="img/proy4.jpg" alt="" loading="lazy">
+                  <a class="btn-1" href="https://devzone990.github.io/Cafe-3/" > ver sitio Web</a>
+           </div>
+     </div>
+    </section>
+
+    
+<!-- -------------------------SECTION CONTACTO------------------------- -->
+<section class="contact oculto hidden mob" id="contacto">
+
+    <h3> contactanos </h3>
+
+    <div class="row">
+    <img src="img/contact.png" alt="contact">
+
+        <form action="" method="POST" id="form">
+
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" name="name" id="" placeholder="Nombre">
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-envelope" ></span>
+                <input type="email" name="email" id="" placeholder="Email">
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-phone" ></span>
+                <input type="number" name="phone" id="" placeholder="Número" required>
+            </div>
+
+            <div class="inputBox">
+                <textarea id="textarea" name="mensaje" placeholder="Escribe un mensaje" required></textarea>
+            </div>
+            <input type="submit" class="btn" id="button" value="Enviar Mensaje" required >            
+        </form>
+        <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('w9pA419k1DSWD2EdN')
+</script>
+
+    </div>
+</section>
+</main>
+<!------------------- FOOTER ---------------------->
+<footer class="footer oculto hidden mob">
+    <div class="shar">
+        <!-- <a href="" class="fab fa-facebook"></a> -->
+        <a href="https://instagram.com/_devzone?igshid=MzRlODBiNWFlZA==" class="fab fa-instagram"></a>
+
+        <a href="https://wa.me/542613461141" class="fab fa-whatsapp"></a>
+    </div>
+
+    <div class="links">
+        <a href="#home">inicio</a>
+        <a href="#about">Nosotros</a>
+        <a href="#portfolio">Proyectos</a>
+        <a href="#contact">contacto</a>
+    </div>
+
+    <div class="credit">created by <i style="text-decoration: underline;">
+            <a href="https://www.linkedin.com/in/benjamin-guirin/"> Benjamin.G </a></i> and <i style="text-decoration: underline;">
+            <a href="https://www.linkedin.com/in/cristian-nieves1012/"> Diego.N </a></i> <a href="mailto:devzone990gmail.com"> | DevZone</a> | all rights reserved
+     </div>
+     <div class="logo-f">
+        <img src="img/devzone negro.png" alt="">
+     </div>
+</footer>
+</div>
+
+    <script src="js.js"></script>
+</body>
+</html>
